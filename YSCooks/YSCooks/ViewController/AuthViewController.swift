@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AuthViewController: UIViewController {
 
+    @IBOutlet weak var mViewSignup: UIView!
+    @IBOutlet weak var mViewSignin: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func onClickedGoSignin(_ sender: UIButton) {
+        mViewSignin.isHidden = false
+        mViewSignup.isHidden = true
+    }
 }
 

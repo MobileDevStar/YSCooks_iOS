@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3141084234346FD00293E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3141083234346FD00293E54 /* AppDelegate.swift */; };
-		A3141086234346FD00293E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3141085234346FD00293E54 /* ViewController.swift */; };
+		A3141086234346FD00293E54 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3141085234346FD00293E54 /* AuthViewController.swift */; };
 		A3141089234346FD00293E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3141087234346FD00293E54 /* Main.storyboard */; };
 		A314108B234346FE00293E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A314108A234346FE00293E54 /* Assets.xcassets */; };
 		A314108E234346FE00293E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A314108C234346FE00293E54 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		A3141080234346FD00293E54 /* YSCooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSCooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3141083234346FD00293E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3141085234346FD00293E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3141085234346FD00293E54 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		A3141088234346FD00293E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A314108A234346FE00293E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A314108D234346FE00293E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		A3141082234346FD00293E54 /* YSCooks */ = {
 			isa = PBXGroup;
 			children = (
+				A39A11C22343862F0026911E /* ViewController */,
 				A3141083234346FD00293E54 /* AppDelegate.swift */,
-				A3141085234346FD00293E54 /* ViewController.swift */,
 				A3141087234346FD00293E54 /* Main.storyboard */,
 				A314108A234346FE00293E54 /* Assets.xcassets */,
 				A314108C234346FE00293E54 /* LaunchScreen.storyboard */,
@@ -123,6 +123,14 @@
 				A31410A5234346FF00293E54 /* Info.plist */,
 			);
 			path = YSCooksUITests;
+			sourceTree = "<group>";
+		};
+		A39A11C22343862F0026911E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3141085234346FD00293E54 /* AuthViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3141086234346FD00293E54 /* ViewController.swift in Sources */,
+				A3141086234346FD00293E54 /* AuthViewController.swift in Sources */,
 				A3141084234346FD00293E54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
