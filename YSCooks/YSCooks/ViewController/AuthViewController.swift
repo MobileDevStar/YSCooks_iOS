@@ -22,5 +22,9 @@ class AuthViewController: UIViewController {
         mViewSignin.isHidden = false
         mViewSignup.isHidden = true
     }
+    
+    @IBAction func onClickedSignin(_ sender: UIButton) {
+       
+    }
 }
 

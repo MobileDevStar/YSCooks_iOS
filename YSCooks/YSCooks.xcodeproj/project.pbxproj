@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392B574CC4B55601D820363B /* Pods_YSCooks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4354333AC1425E18F86158 /* Pods_YSCooks.framework */; };
 		A3141084234346FD00293E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3141083234346FD00293E54 /* AppDelegate.swift */; };
 		A3141086234346FD00293E54 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3141085234346FD00293E54 /* AuthViewController.swift */; };
 		A3141089234346FD00293E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3141087234346FD00293E54 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		A314108E234346FE00293E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A314108C234346FE00293E54 /* LaunchScreen.storyboard */; };
 		A3141099234346FE00293E54 /* YSCooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3141098234346FE00293E54 /* YSCooksTests.swift */; };
 		A31410A4234346FF00293E54 /* YSCooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31410A3234346FF00293E54 /* YSCooksUITests.swift */; };
+		A318EC0A2347484C00E484D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318EC092347484C00E484D8 /* HomeViewController.swift */; };
+		A318EC0C2347486B00E484D8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318EC0B2347486B00E484D8 /* MainViewController.swift */; };
+		A318EC0F2347492E00E484D8 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318EC0E2347492E00E484D8 /* UIView+constraints.swift */; };
+		A3D6B4A62344A3EE0073AAB0 /* CooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D6B4A52344A3EE0073AAB0 /* CooksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C9D792E7F6BFBEC3F25DB92 /* Pods-YSCooks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSCooks.debug.xcconfig"; path = "Target Support Files/Pods-YSCooks/Pods-YSCooks.debug.xcconfig"; sourceTree = "<group>"; };
 		A3141080234346FD00293E54 /* YSCooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSCooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3141083234346FD00293E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3141085234346FD00293E54 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		A314109F234346FE00293E54 /* YSCooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSCooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31410A3234346FF00293E54 /* YSCooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSCooksUITests.swift; sourceTree = "<group>"; };
 		A31410A5234346FF00293E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A318EC092347484C00E484D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A318EC0B2347486B00E484D8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A318EC0E2347492E00E484D8 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		A3D6B4A52344A3EE0073AAB0 /* CooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooksViewController.swift; sourceTree = "<group>"; };
+		BF4354333AC1425E18F86158 /* Pods_YSCooks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSCooks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C802AA19CD62CF012CCD7231 /* Pods-YSCooks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSCooks.release.xcconfig"; path = "Target Support Files/Pods-YSCooks/Pods-YSCooks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392B574CC4B55601D820363B /* Pods_YSCooks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77A164CB77596FBB793A58D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF4354333AC1425E18F86158 /* Pods_YSCooks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3141077234346FD00293E54 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,8 @@
 				A3141097234346FE00293E54 /* YSCooksTests */,
 				A31410A2234346FF00293E54 /* YSCooksUITests */,
 				A3141081234346FD00293E54 /* Products */,
+				E3008E304850AE05E9F2B71A /* Pods */,
+				77A164CB77596FBB793A58D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +120,7 @@
 		A3141082234346FD00293E54 /* YSCooks */ = {
 			isa = PBXGroup;
 			children = (
+				A318EC0D2347492000E484D8 /* Extension */,
 				A39A11C22343862F0026911E /* ViewController */,
 				A3141083234346FD00293E54 /* AppDelegate.swift */,
 				A3141087234346FD00293E54 /* Main.storyboard */,
@@ -125,12 +149,32 @@
 			path = YSCooksUITests;
 			sourceTree = "<group>";
 		};
+		A318EC0D2347492000E484D8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A318EC0E2347492E00E484D8 /* UIView+constraints.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A39A11C22343862F0026911E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				A3141085234346FD00293E54 /* AuthViewController.swift */,
+				A3D6B4A52344A3EE0073AAB0 /* CooksViewController.swift */,
+				A318EC092347484C00E484D8 /* HomeViewController.swift */,
+				A318EC0B2347486B00E484D8 /* MainViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E3008E304850AE05E9F2B71A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D792E7F6BFBEC3F25DB92 /* Pods-YSCooks.debug.xcconfig */,
+				C802AA19CD62CF012CCD7231 /* Pods-YSCooks.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A31410A8234346FF00293E54 /* Build configuration list for PBXNativeTarget "YSCooks" */;
 			buildPhases = (
+				C1E112E7E2D94FF61CD04B4D /* [CP] Check Pods Manifest.lock */,
 				A314107C234346FD00293E54 /* Sources */,
 				A314107D234346FD00293E54 /* Frameworks */,
 				A314107E234346FD00293E54 /* Resources */,
+				EC8484F0224669D3399D8B8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,13 +305,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C1E112E7E2D94FF61CD04B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YSCooks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8484F0224669D3399D8B8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSCooks/Pods-YSCooks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YSCooks/Pods-YSCooks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YSCooks/Pods-YSCooks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A314107C234346FD00293E54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D6B4A62344A3EE0073AAB0 /* CooksViewController.swift in Sources */,
+				A318EC0F2347492E00E484D8 /* UIView+constraints.swift in Sources */,
 				A3141086234346FD00293E54 /* AuthViewController.swift in Sources */,
 				A3141084234346FD00293E54 /* AppDelegate.swift in Sources */,
+				A318EC0A2347484C00E484D8 /* HomeViewController.swift in Sources */,
+				A318EC0C2347486B00E484D8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +530,7 @@
 		};
 		A31410A9234346FF00293E54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9D792E7F6BFBEC3F25DB92 /* Pods-YSCooks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +549,7 @@
 		};
 		A31410AA234346FF00293E54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C802AA19CD62CF012CCD7231 /* Pods-YSCooks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
